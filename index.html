@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Levi Castillón – Data Scientist & DevOps</title>
+  <meta name="description" content="Portafolio personal de Levi Castillón: Data Scientist y DevOps. Experiencia en ML, CI/CD y nubes (AWS, GCP, Azure)." />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#0f172a" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Levi Castillón – Data Scientist & DevOps" />
+  <meta property="og:description" content="Portafolio personal y contacto." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root{
+      --bg: #0b1020; --card:#0f172a; --muted:#94a3b8; --text:#e2e8f0; --brand:#38bdf8; --accent:#a3e635;
+      --lightbg:#f8fafc; --lightcard:#ffffff; --lighttext:#0f172a; --lightmuted:#475569;
+    }
+    @media (prefers-color-scheme: light){
+      :root{ --bg:var(--lightbg); --card:var(--lightcard); --text:var(--lighttext); --muted:var(--lightmuted); }
+    }
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:var(--brand);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:980px;margin:0 auto;padding:28px}
+    header{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+    .avatar{width:84px;height:84px;border-radius:50%;background:linear-gradient(135deg,var(--brand),var(--accent));display:inline-block}
+    .title h1{margin:0;font-size:clamp(24px,3vw,36px)}
+    .title p{margin:.25rem 0 0;color:var(--muted)}
+    nav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap}
+    nav a{padding:8px 12px;border:1px solid #1f2937;border-radius:8px;background:transparent}
+    section{margin:28px 0;padding:24px;border:1px solid #1f2937;border-radius:16px;background:var(--card)}
+    h2{margin:0 0 12px;font-size:22px}
+    .grid{display:grid;gap:16px}
+    @media(min-width:800px){ .grid-2{grid-template-columns:1fr 1fr} }
+    .item{padding:16px;border:1px solid #1f2937;border-radius:12px;background:rgba(255,255,255,0.02)}
+    .meta{color:var(--muted);font-size:.95rem}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .tag{font-size:.85rem;padding:4px 8px;border-radius:999px;border:1px solid #334155;color:var(--muted)}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #334155;background:transparent}
+    footer{margin:40px 0 16px;text-align:center;color:var(--muted);font-size:.9rem}
+    /* impresión */
+    @media print{ nav, .btn {display:none} section{background:#fff;border-color:#ddd} body{background:#fff;color:#111} }
+  </style>
+
+  <!-- JSON-LD para SEO básico -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Levi Castillón",
+    "jobTitle":"Data Scientist & DevOps",
+    "address":{"@type":"PostalAddress","addressLocality":"Lima","addressCountry":"PE"},
+    "email":"mailto:lcastillonu@unsa.edu.pe",
+    "telephone":"+51924002052",
+    "url":"https://<tu-usuario>.github.io",
+    "sameAs":["https://www.linkedin.com/in/levijoelcu/"]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar" aria-hidden="true"></div>
+      <div class="title">
+        <h1>Levi Castillon</h1>
+        <p>Data Scientist & DevOps · Lima, Perú (UTC-5)</p>
+      </div>
+      <nav aria-label="Secciones">
+        <a href="#acerca">Acerca</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <section id="acerca">
+      <h2>Acerca de mí</h2>
+      <p>
+        Data Scientist con experiencia en análisis de datos y modelos de ML (Scikit-learn, NumPy, Pandas) y
+        práctica DevOps (CI/CD con Cloud Build, GitHub Actions y Bitbucket Pipelines; IaC con Terraform; Kubernetes).
+        Enfoque sobrio y resultados medibles.
+      </p>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">C++</span><span class="tag">Scikit-learn</span>
+        <span class="tag">D3.js</span><span class="tag">Terraform</span><span class="tag">Kubernetes</span>
+        <span class="tag">AWS/GCP/Azure</span>
+      </div>
+      <p style="margin-top:12px">
+        <a class="btn" href="CV_LeviCastillon_En.pdf" download>Descargar CV (PDF)</a>
+      </p>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <div class="grid">
+        <div class="item">
+          <strong>Aquaware – DevOps & Cloud Engineer</strong>
+          <div class="meta">Feb 2025 – Presente</div>
+          <ul>
+            <li>CI/CD con Cloud Build, GitHub Actions y Bitbucket Pipelines.</li>
+            <li>Infraestructura reproducible con Terraform en multi-cloud.</li>
+            <li>Observabilidad con Prometheus y Grafana.</li>
+          </ul>
+          <div class="tags"><span class="tag">Terraform</span><span class="tag">Cloud Build</span><span class="tag">Grafana</span></div>
+        </div>
+        <div class="item">
+          <strong>UNSA – Data Scientist</strong>
+          <div class="meta">Sep 2024 – Presente</div>
+          <ul>
+            <li>Visualización de series de tiempo no contiguas con autoencoders y PCA/t-SNE/U-MAP.</li>
+            <li>Herramienta web (Angular + D3) para análisis exploratorio.</li>
+          </ul>
+          <div class="tags"><span class="tag">Python</span><span class="tag">D3.js</span><span class="tag">ML</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="grid grid-2">
+        <article class="item">
+          <h3 style="margin-top:0">Analítica de series de tiempo</h3>
+          <p>Exploración 2D de múltiples series con extracción de features vía autoencoders.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">D3.js</span></div>
+          <!-- <p><a href="#" aria-label="Repositorio del proyecto">Repositorio</a></p> -->
+        </article>
+        <article class="item">
+          <h3 style="margin-top:0">Pipelines CI/CD</h3>
+          <p>Plantillas de Cloud Build/Actions para despliegues consistentes y auditables.</p>
+          <div class="tags"><span class="tag">Cloud Build</span><span class="tag">GitHub Actions</span><span class="tag">Terraform</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Habilidades</h2>
+      <div class="grid grid-2">
+        <div class="item">
+          <strong>Lenguajes</strong>
+          <p>Python, C++, SQL, Java, TypeScript, HTML/CSS</p>
+        </div>
+        <div class="item">
+          <strong>Cloud & DevOps</strong>
+          <p>AWS, GCP, Azure, Terraform, Kubernetes, Prometheus, Grafana</p>
+        </div>
+        <div class="item">
+          <strong>ML/Data</strong>
+          <p>Scikit-learn, NumPy, Pandas, Matplotlib, ts-learn</p>
+        </div>
+        <div class="item">
+          <strong>Bases de datos</strong>
+          <p>PostgreSQL, MongoDB, SQL Server</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>
+        <strong>Email:</strong> <a href="mailto:lcastillonu@unsa.edu.pe">lcastillonu@unsa.edu.pe</a><br/>
+        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/levijoelcu/">linkedin.com/in/levijoelcu</a><br/>
+        <strong>Teléfono:</strong> <a href="tel:+51924002052">+51 924 002 052</a>
+      </p>
+      <p class="meta">Disponible para proyectos y oportunidades alineadas con buenas prácticas y estabilidad.</p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Levi Castillón. Hecho con HTML/CSS puro.
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
